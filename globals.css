@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* .NavTxt {
+    justify-content: right;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    text-align: center;
+    font-size: 97%;
+} */
+
+main {
+    position: relative;
+    overflow : hidden
+}
+
+ul {
+  justify-content: right;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  text-align: center;
+  font-size: 97%;
+}
+
+.box {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background: red;
+  width: 100px;
+  height: 100px;
+}
